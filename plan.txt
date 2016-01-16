@@ -1,0 +1,20 @@
+FBP
+----
+* Network
+* Component
+* Port
+* Connection
+* Information Packet
+
+Register(component)
+
+Network.Connect(out, in string)
+out, in:
+<component descriptor>.<instance id>:<port descriptor>
+
+Component.Push(portDescriptor, ip)
+
+Composite: implementeert dezelfde interface m.b.t. poorten als Component?
+
+Component moet geregistreerd worden bij het systeem
+Component kan worden toegevoegd aan een network. Dit creëert een instantie.
